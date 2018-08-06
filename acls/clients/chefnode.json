@@ -1,0 +1,54 @@
+{
+  "create": {
+    "actors": [
+      "chefadmin",
+      "chefnode",
+      "pivotal"
+    ],
+    "groups": [
+      "admins"
+    ]
+  },
+  "read": {
+    "actors": [
+      "chefadmin",
+      "chefnode",
+      "pivotal"
+    ],
+    "groups": [
+      "admins",
+      "users"
+    ]
+  },
+  "update": {
+    "actors": [
+      "chefadmin",
+      "chefnode",
+      "pivotal"
+    ],
+    "groups": [
+      "admins"
+    ]
+  },
+  "delete": {
+    "actors": [
+      "chefadmin",
+      "chefnode",
+      "pivotal"
+    ],
+    "groups": [
+      "admins",
+      "users"
+    ]
+  },
+  "grant": {
+    "actors": [
+      "chefadmin",
+      "chefnode",
+      "pivotal"
+    ],
+    "groups": [
+      "admins"
+    ]
+  }
+}
