@@ -1,7 +1,0 @@
-{
-  "name": "public_key_read_access",
-  "groups": [
-    "clients",
-    "users"
-  ]
-}
