@@ -1,0 +1,10 @@
+{
+  "id": "chefadmin",
+  "ssh": {
+    "encrypted_data": "tIzxY1DGSqlffqQ2CUAFzd/haBUbq+TkWbX/AICFkKUvrBd2\n",
+    "iv": "jOJdIqWXJpnGw2to\n",
+    "auth_tag": "S40Pac2JL3djGVNXfWQVlg==\n",
+    "version": 3,
+    "cipher": "aes-256-gcm"
+  }
+}

@@ -1,0 +1,29 @@
+I, [2018-08-09T14:26:21.226674 #18869]  INFO -- Kitchen: -----> Starting Kitchen (v1.20.0)
+E, [2018-08-09T14:26:21.227186 #18869] ERROR -- Kitchen: ------Exception-------
+E, [2018-08-09T14:26:21.227247 #18869] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2018-08-09T14:26:21.227284 #18869] ERROR -- Kitchen: Message: Kitchen YAML file /Users/teddyyang/learn-chef/cookbooks/.kitchen.yml does not exist.
+E, [2018-08-09T14:26:21.227308 #18869] ERROR -- Kitchen: ----------------------
+E, [2018-08-09T14:26:21.227328 #18869] ERROR -- Kitchen: ------Backtrace-------
+E, [2018-08-09T14:26:21.227347 #18869] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/loader/yaml.rb:65:in `read'
+E, [2018-08-09T14:26:21.227368 #18869] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/config.rb:152:in `data'
+E, [2018-08-09T14:26:21.227388 #18869] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/config.rb:131:in `suites'
+E, [2018-08-09T14:26:21.227407 #18869] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/config.rb:182:in `filter_instances'
+E, [2018-08-09T14:26:21.227427 #18869] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/config.rb:141:in `build_instances'
+E, [2018-08-09T14:26:21.227446 #18869] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/config.rb:117:in `instances'
+E, [2018-08-09T14:26:21.227465 #18869] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/command.rb:112:in `filtered_instances'
+E, [2018-08-09T14:26:21.227484 #18869] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/command.rb:142:in `parse_subcommand'
+E, [2018-08-09T14:26:21.227503 #18869] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/command/test.rb:40:in `block in call'
+E, [2018-08-09T14:26:21.227523 #18869] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/2.4.0/benchmark.rb:293:in `measure'
+E, [2018-08-09T14:26:21.227542 #18869] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/command/test.rb:38:in `call'
+E, [2018-08-09T14:26:21.227561 #18869] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/cli.rb:52:in `perform'
+E, [2018-08-09T14:26:21.227580 #18869] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/cli.rb:245:in `test'
+E, [2018-08-09T14:26:21.227600 #18869] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+E, [2018-08-09T14:26:21.227619 #18869] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2018-08-09T14:26:21.227639 #18869] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+E, [2018-08-09T14:26:21.227668 #18869] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+E, [2018-08-09T14:26:21.227703 #18869] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/bin/kitchen:13:in `block in <top (required)>'
+E, [2018-08-09T14:26:21.227734 #18869] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/lib/kitchen/errors.rb:171:in `with_friendly_errors'
+E, [2018-08-09T14:26:21.227768 #18869] ERROR -- Kitchen: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.20.0/bin/kitchen:13:in `<top (required)>'
+E, [2018-08-09T14:26:21.227799 #18869] ERROR -- Kitchen: /opt/chefdk/embedded/bin/kitchen:23:in `load'
+E, [2018-08-09T14:26:21.227824 #18869] ERROR -- Kitchen: /opt/chefdk/embedded/bin/kitchen:23:in `<main>'
+E, [2018-08-09T14:26:21.227854 #18869] ERROR -- Kitchen: ----End Backtrace-----
