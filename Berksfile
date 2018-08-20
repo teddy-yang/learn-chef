@@ -40,6 +40,7 @@ cookbook 'windows', '~> 3.4.4'
 cookbook 'yum-epel',										'~> 0.7.1'
 cookbook 'zookeeper', '~> 10.0.0'
 cookbook 'zypper', '~> 0.4.0'
+cookbook 'kube', '~> 2.0'
 
 
 ## Disabled ##def dependencies(path)
