@@ -1,0 +1,16 @@
+{
+  "name": "ELK-ubuntu",
+  "run_list": [
+    "recipe[ELK-ubuntu::installElasticSearch]",
+    "recipe[ELK-ubuntu::installFileBeatOnClient]",
+    "recipe[ELK-ubuntu::installJava8]",
+    "recipe[ELK-ubuntu::installKibana]",
+    "recipe[ELK-ubuntu::installLogstash]",
+    "recipe[ELK-ubuntu::installNginx]",
+    "recipe[ELK-ubuntu::configureLogStash]",
+    "recipe[ELK-ubuntu::generateSSLCerts]",
+    "recipe[ELK-ubuntu::copyCertToClient]",
+    "recipe[ELK-ubuntu::loadKibanaDashboards]",
+    "recipe[ELK-ubuntu::startAllServices]"
+  ]
+}

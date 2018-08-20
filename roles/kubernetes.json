@@ -1,0 +1,8 @@
+{
+  "name": "kubernetes",
+  "run_list": [
+    "recipe[kube::kube_apiserver]",
+    "recipe[kube::kube_scheduler]",
+    "recipe[kube::kube_controller_manager]"
+  ]
+}
